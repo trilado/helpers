@@ -1,0 +1,1 @@
+Projeto para armazenar classes helpers para o Trilado Framework.
