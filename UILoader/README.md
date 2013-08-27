@@ -11,7 +11,7 @@ A classe `UILoader` contém métodos para carregar automaticamente os arquivos C
 
 Um exemplo de utilização do métodos `UILoader::css()` e `UILoader::js()`:
 
-```html
+```php
 <!DOCTYPE html>
 <html>
 	<head>
