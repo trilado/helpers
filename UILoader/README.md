@@ -1,22 +1,21 @@
-## UILoader ##
+# UILoader #
 
 A classe `UILoader` contém métodos para carregar automaticamente os arquivos CSS e JS.
 
-### Dependências ###
+## Dependências ##
 
 - Classe `Html` (inclusa no Trilado)
 - Classe `Cache` (inclusa no Trilado)
 
-### Exemplos ###
+## Exemplos ##
 
 Um exemplo de utilização do métodos `UILoader::css()` e `UILoader::js()`:
 
-```php
+```html
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>Example</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<?= UILoader::css(array('bootstrap.css', 'bootstrap.css')) ?>
 	</head>
 	<body>
